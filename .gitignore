@@ -1,0 +1,30 @@
+# --- Environnements virtuels (peu importe leur nom ou emplacement) ---
+prediction_panne/
+.venv/
+env/
+venv/
+ENV/
+*.bak/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# --- Fichiers d'environnement et de configuration ---
+.env
+.env.local
+
+# --- IDE et Éditeurs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# --- Logs et fichiers temporaires ---
+*.log
+logs/
+tmp/
